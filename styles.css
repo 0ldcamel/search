@@ -1,0 +1,12 @@
+.links {
+    text-align: right;
+    color: green;
+}
+
+div form {
+    text-align: center;
+}
+
+.round {
+    border-radius: 15px;
+}
