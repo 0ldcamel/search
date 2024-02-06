@@ -3,10 +3,38 @@
     color: green;
 }
 
-div form {
-    text-align: center;
-}
+
 
 .round {
     border-radius: 15px;
+}
+.grid {
+    
+    display: grid;
+    padding: 5px;
+    column-gap: 5px;
+    row-gap: 15px;
+    grid-template-columns: 300px auto;
+}
+
+.grid-item, {
+    
+    font-size: 16px;
+    padding: 10px;
+    text-align: left;
+}
+
+h2 {
+    color: red;
+    font-family: Arial, sans-serif;
+}
+
+.boxwidth {
+    width: 400px; /* or any other value */
+}
+
+.submit-button {
+    background-color: rgb(72, 136, 230);
+    color: white;
+    font-size: 16px;
 }

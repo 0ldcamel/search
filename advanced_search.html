@@ -9,14 +9,26 @@
         <div class="links">
             <a href="index.html">Google Search</a>
         </div>
-        <div>
+        <h2>Advanced Search</h2>
+        <p>Find pages with ...</p><br>
+            
             <form action="https://www.google.com/search?as_q=cat&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=">
-                <input type="text" name="as_q"><br>
-                <input type="text" name="as_epq"><br>
-                <input type="text" name="as_oq"><br>
-                <input type="text" name="as_eq"><br><br>
-                <input type="submit" value="Advanced Search">
+                <div class="grid">
+                    <div class="grid-item">all these words:</div>
+                    <div class="grid-item"><input type="text" name="as_q" class="boxwidth"></div>
+                    
+                    <div class="grid-item">this exact word or phrase:</div>
+                    <div class="grid-item"><input type="text" name="as_epq" class="boxwidth"></div>
+
+                    <div class="grid-item">any of these words:</div>
+                    <div class="grid-item"><input type="text" name="as_oq" class="boxwidth"></div>
+                    
+                    <div class="grid-item">none of these words:</div>
+                    <div class="grid-item"><input type="text" name="as_eq" class="boxwidth"></div>
+                    <div class="grid-item"> </div>
+                    <div class="grid-item"><input type="submit" value="Advanced Search" class="submit-button"></div>
+                </div>
             </form>
-        </div>
+        
     </body>
 </html>
