@@ -9,7 +9,7 @@ html {
 }
 
 .round {
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .grid {
@@ -18,7 +18,7 @@ html {
     padding: 5px;
     column-gap: 5px;
     row-gap: 5px;
-    grid-template-columns: 300px auto;
+    grid-template-columns: 260px auto;
 }
 
 .grid-item {
